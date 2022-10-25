@@ -1,0 +1,137 @@
+.component{
+  display: flex;
+  flex-direction: column;
+}
+.Bio{
+  height: 100vh;
+  width: 100vw;
+}
+.bioWrapper{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #330057  , #4e0079 );
+  height: 780px;
+  justify-content: center;
+  align-items: center;
+}
+.bioHeading{
+  font-size: 40px;
+  color: #BC6FF1;
+  text-transform: uppercase;
+  margin: 0;
+}
+.biohr{
+  width: 50%;
+  height: 5%;
+  background-color: #BC6FF1;
+  border: none;
+  border-radius: 2px;
+}
+.content{
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-child{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.disPic{
+  height: auto;
+}
+.Tilt{
+  width: 250px;
+}
+#dp{
+  border-radius: 1000px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.226);
+}
+.bioContent{
+  text-align: justify;
+  color: #fbf7ff;
+}
+.BioBtn{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+#resume{
+  height: auto;
+  width: auto;
+  padding: 8px 15px ;
+  border: 3px solid;
+  border-radius: 50px;
+  border-color: #892CDC;
+  color: #fbf7ff;
+  text-decoration: none;
+  transition: ease 0.3s;
+}
+#resume:hover{
+  border-color: #892CDC;
+  background-color: #8a2cdca4;
+  cursor: pointer;
+}
+@media (max-width: 900px){
+  .bioHeading{
+    font-size: 25px;
+  }
+  #dp{
+    height: 150px;
+    width: auto;
+  }
+  .Tilt{
+    width: 150px;
+    margin-left: 0;
+  }
+  .content{
+    width: 90%;
+  }
+}
+.arrows-light {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+}
+.arrows-light .light {
+	stroke: #fbf7ff;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow-light 2s infinite;
+	-webkit-animation: arrow-light 2s infinite; 
+}
+@keyframes arrow-light
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+@-webkit-keyframes arrow-light /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+.arrows-light path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+.arrows-light path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+.arrows-light path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}

@@ -1,0 +1,177 @@
+.Skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+  height: 100%;
+}
+.skillheading{
+  margin-top: 80px;
+}
+.skillHeading{
+  font-size: 40px;
+  color: #52057B;
+  text-transform: uppercase;
+  margin: 0;
+}
+.skillhr{
+  width: 50%;
+  height: 3px;
+  background-color: #52057B;
+  border: none;
+  border-radius: 2px;
+}
+.SkillDiv{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: auto;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #320b53;
+  margin-top: 50px;
+}
+.SkillDiv-child{
+  height: auto;
+  width: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.SkillDiv-title{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-size: 20px;
+  color: #dadada;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 0; 
+}
+.topic{
+  color: #dadada;
+  /* padding-right: 25px; */
+}
+.progress {
+  background: #dadada34;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 25px;
+  width: 250px;
+  transition: ease .3s;
+}
+.progress:hover{
+  transform: scale(1.1);
+}
+.progress-value {
+  box-shadow: 0 10px 40px -10px #2e2e2e;
+  border-radius: 100px;
+  background: #ebebeb;
+  height: 15px;
+  width: 0;
+}
+@media(max-width:450px){
+  .topic{
+    font-size: 8px;
+  }
+  .progress{
+    height: 18px;
+    width: 180px;
+  }
+  .progress-value{
+    height: 10px;
+  }
+}
+.topic1{
+  animation: load1 2s normal forwards;
+}
+@keyframes load1 {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+.topic2{
+  animation: load2 2s normal forwards;
+}
+@keyframes load2 {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+.topic3{
+  animation: load3 2s normal forwards;
+}
+@keyframes load3 {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+.topic4{
+  animation: load4 2s normal forwards;
+}
+@keyframes load4 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+.topic5{
+  animation: load5 2s normal forwards;
+}
+@keyframes load5 {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+.topic6{
+  animation: load6 2s normal forwards;
+}
+@keyframes load6 {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+.topic7{
+  animation: load7 2s normal forwards;
+}
+@keyframes load7 {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+.topic8{
+  animation: load8 2s normal forwards;
+}
+@keyframes load8 {
+  0% { width: 0; }
+  100% { width: 97%; }
+}
+.topic9{
+  animation: load9 2s normal forwards;
+}
+@keyframes load9 {
+  0% { width: 0; }
+  100% { width: 50%; }
+}
+.topic10{
+  animation: load10 2s normal forwards;
+}
+@keyframes load10 {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+@media (max-width: 900px){
+  .skillHeading{
+    font-size: 25px;
+  }
+  .topic{
+    font-size: 13px;
+    padding-right: 10px;
+  }
+  .SkillDiv-title{
+    font-size: 16px;
+  }
+}

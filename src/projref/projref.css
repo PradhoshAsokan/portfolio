@@ -1,0 +1,46 @@
+.carousalMainDIV{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #590d8b , #310053);
+
+}
+.headDIV{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+.projheader{
+  color: #BC6FF1;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.projhr{
+  width: 50%;
+  height: 5%;
+  background-color: #BC6FF1;
+  border: none;
+  border-radius: 2px
+}
+.carousalDiv{
+  background-color: blueviolet;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousalDiv-inner{
+  border-radius: 10px;
+  width: 1002px;
+  height: 563px;
+}
+.carousalImage{
+  width: 1002px;
+  height: 563px;
+  border-radius: 10px;
+}
+

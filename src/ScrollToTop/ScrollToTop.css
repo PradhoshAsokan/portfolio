@@ -1,0 +1,27 @@
+.scroll-to-top{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 85%;
+  left: 93%;
+}
+.arrowDiv{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #fbf7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.scrollArrow{
+  color: blueviolet;
+  transform: scale(2);
+}
+@media(max-width:1000px){
+  .scroll-to-top{
+    left: 80%;
+  }
+}

@@ -1,0 +1,96 @@
+.component{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.introduction{
+	justify-content: center;
+	align-items: center;
+  background-color: #fbf7ff;
+  color: #000000;
+  animation: fadeIn  2s;
+  -webkit-animation: fadeIn  2s;
+  -moz-animation: fadeIn  2s;
+  -o-animation: fadeIn  2s;
+  -ms-animation: fadeIn  2s;
+}
+.learnMore{
+	font-size: 20px;
+	margin: 10px;
+}
+.introHeading{
+	padding: 10%;
+	display: flex;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+h1{
+  font-size: 50px;
+}
+@media (max-width: 900px){
+  h1{
+    font-size: 20px;
+  }
+	.scroll-dark-intro{
+		padding-top: 25%;
+	}
+}
+.arrows-dark {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+}
+.arrows-dark .dark {
+	stroke: #52057B;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow-dark 2s infinite;
+	-webkit-animation: arrow-dark 2s infinite; 
+}
+@keyframes arrow-dark
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+@-webkit-keyframes arrow-dark /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+.arrows-dark path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+.arrows-dark path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+.arrows-dark path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}

@@ -1,0 +1,16 @@
+#contactMe{
+  height: auto;
+  width: auto;
+  padding: 8px 15px ;
+  border: 3px solid;
+  border-radius: 50px;
+  border-color: #892CDC;
+  color: #fbf7ff;
+  text-decoration: none;
+  transition: ease 0.3s;
+}
+#contactMe:hover{
+  border-color: #892CDC;
+  background-color: #8a2cdca4;
+  cursor: pointer;
+}

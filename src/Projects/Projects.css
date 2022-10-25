@@ -1,0 +1,126 @@
+.component{
+  display: flex;
+  flex-direction: column;
+}
+.Projects{
+  height: 100%;
+  width: 100vw;   
+  align-items: center;
+  justify-content: center;
+}
+.projheading{
+  margin-top: 100px;
+}
+.projHeader{
+  color: #52057B;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.projhr{
+  width: 50%;
+  height: 3px;
+  background-color: #52057B;
+  border: none;
+  border-radius: 2px;
+}
+.carousalDiv{
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: linear-gradient(to right, #48036d , #330057);
+  overflow: hidden;
+  margin-top: 50px;
+}
+.carousalImage{
+  border-radius: 10px;
+  transition: ease 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.projCard{
+  /* margin: 20px; */
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 40%;
+  border-radius: 10px;
+}
+.overlay{
+  background-color: #000000d3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+.projCard:hover .overlay {
+  height: 100%;
+}
+.description{
+  color: #fbf7ff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.codeBtn{
+  height: auto;
+  width: auto;
+  margin: 20px;
+  padding: 8px 15px ;
+  border: 3px solid;
+  border-radius: 50px;
+  border-color: #892CDC;
+  color: #fbf7ff;
+  text-decoration: none;
+  transition: ease 0.3s;
+}
+.btn{
+  margin-top: 25px;
+}
+.codeBtn:hover{
+  color: #fbf7ff;
+  border-color: #892CDC;
+  background-color: #8a2cdc93;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.226);
+}
+@media (max-width: 900px){
+  .carousalImage{
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .description{
+    width: 80%;
+    font-size: 12px;
+  }
+  .projHeader{
+    font-size: 25px;
+  }
+  .projCard{
+    width: 90%;
+  }
+  .codeBtn{
+    margin: 5px;
+    font-size: 10px;
+    padding: 1px 3px ;
+  }
+  .btn{
+    top: 80%;
+  }
+}

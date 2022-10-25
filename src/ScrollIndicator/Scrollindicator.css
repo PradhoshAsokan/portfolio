@@ -1,0 +1,12 @@
+.scroll-container{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 8px;
+  height: 100%;
+  background: #24242446;
+}
+.scroll-container .indicator{
+  background: #8800ff;
+}
